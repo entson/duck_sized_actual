@@ -1,0 +1,45 @@
+{
+  "version": "0.1.0",
+  "command": "npm",
+  "isShellCommand": true,
+  "showOutput": "silent",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "install",
+      "args": [
+        "install"
+      ]
+    },
+    {
+      "taskName": "update",
+      "args": [
+        "update"
+      ]
+    },
+    {
+      "taskName": "build",
+      "args": [
+        "run",
+        "build"
+      ],
+      "isBuildCommand": true,
+      "problemMatcher": "$tsc"
+    },
+    {
+      "taskName": "test",
+      "args": [
+        "run",
+        "test"
+      ],
+      "isTestCommand": true
+    },
+    {
+      "taskName": "lint",
+      "args": [
+        "run",
+        "lint"
+      ]
+    }
+  ]
+}

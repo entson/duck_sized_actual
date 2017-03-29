@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": [
+      "es2016"
+    ],
+    "sourceMap": true,
+    "outDir": "dist",
+    "importHelpers": true
+  },
+  "include": [
+    "src",
+    "test"
+  ]
+}
