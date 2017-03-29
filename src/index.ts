@@ -19,16 +19,17 @@ readFile("duck_sized.csv", {encoding: "utf-8"}, function(err,data){
     var animal2 = data[rand2][0];
     var animal1 = data[rand1][0];
     
-//    if (data[rand2][1] = 'small') {
-//      animal2 = Math.floor(Math.random() * 5) + ' ' + data[rand2][0] + 's';
-//      animal2 = data[rand2][0];
-//    }
+    if (data[rand2][1] = 'small') {
+      animal2 = Math.floor(Math.random() * 5) + ' ' + data[rand2][0] + 's';
+    } else {
+      animal2 = data[rand2][0];
+    }
 
- //   console.log(data);
- //   console.log(rand1);
- //   console.log(rand2);
- //   console.log(animal1);
- //   console.log(animal2);
+    console.log(data);
+    console.log(rand1);
+    console.log(rand2);
+    console.log(animal1);
+    console.log(animal2);
     console.log("Would you rather fight a " + animal1 + "-sized " + animal2 + ", or a " + animal2 + "-sized " + animal1+ "?");
   });
 });
